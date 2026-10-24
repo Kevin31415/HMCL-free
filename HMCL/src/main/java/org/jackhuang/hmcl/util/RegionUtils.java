@@ -23,6 +23,7 @@ import org.jetbrains.annotations.NotNullByDefault;
 public final class RegionUtils {
 
     /// Pre-check if the network is in China Mainland to avoid blocking the UI thread.
+    // 使在中国大陆始终返回false
     public static void init() {
         // No-op: always returns false
     }
